@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    background-color: #FAFAF9;
+  }
+
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(55, 65, 81);
+
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 400px;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 5px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.3);
+    background-color: #FAFAF9;
+    border-radius: 10px;
+  }
+
+  .container a:link {
+    text-decoration: none;
+    color: #7C19EE;
+    margin: 10px;
+    background-color: #f2eafd;
+    padding: 5px 20px;
+    align-self: flex-start;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+  
+  }
+
+  .border-line {
+    width: 100%;
+    background-color: #E5EAF0;
+    height: 2px;
+  }
+
+
+  img {
+    width: 100%;
+    border-radius: 15px; 
+    padding: 10px;
+  }
+
+    h1 {
+        font-size: 18px;
+        color: #373F51;
+        margin: 10px 8px;
+        font-weight: bold;
+    }
+
+
+    p {
+        font-size: 16px;
+        color: #394150;
+        margin: 10px 5px;
+        
+    }
+
+    .author {
+        margin-top: 20px;
+    }
